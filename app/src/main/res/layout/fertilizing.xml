@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="399dp"
+        android:layout_height="590dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.502">
+
+
+        <LinearLayout
+            android:layout_width="366dp"
+            android:layout_height="490dp"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="7dp">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="226dp"
+                android:layout_height="wrap_content"
+                android:text="Fertilizating"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Step 1: Pollination"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="354dp"
+                android:layout_height="wrap_content"
+                android:text="    In general, male gametes are contained in pollen, which is carried by wind, water, or wildlife (both insects and animals) to reach female gametes. The pollen is deposited on a plant's stigma, which is part of the pistil (the elongated part of a flower extending from the ovary). "
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Step 2: Germination"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="    Within a few minutes, pollen tubes begin growing, or germinating, toward the egg cell. These tubes will provide a path for the sperm carried in the pollen to reach the egg."
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Step 3: Penetration of the Ovule"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="342dp"
+                android:layout_height="46dp"
+                android:text="    The pollen tubes penetrate the ovule, which contains the female gametes."
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Step 4: Fertilization"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="342dp"
+                android:layout_height="77dp"
+                android:text="    Sperm travel down the pollen tubes and fertilize an egg. Most angiosperms undergo double fertilization, where both an egg and the polar nuclei in the embryonic sac are fertilized."
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Step 5: Division"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="342dp"
+                android:layout_height="111dp"
+                android:text="    After fertilization, the cells of the zygote begin dividing, and the zygote develops into an embryo, or developing plant. The embryo is stored in a seed capsule, where it remains dormant until environmental conditions support its development into a new plant."
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btn_start"
+                android:layout_width="133dp"
+                android:layout_height="wrap_content"
+                android:onClick="fertile_option"
+                android:text="Back" />
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

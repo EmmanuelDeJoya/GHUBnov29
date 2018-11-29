@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="399dp"
+        android:layout_height="594dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="366dp"
+            android:layout_height="490dp"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="7dp">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="226dp"
+                android:layout_height="wrap_content"
+                android:text="Watering"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Step 1: Look at the type of plant"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="354dp"
+                android:layout_height="62dp"
+                android:text="    Is the plant younger, or a newly grown, or an older one. Younger plants can be at most 4-5 years of age. Then they are categorised as older plants."
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Step 2: Research how much water your plants need"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="    This varies from species to species, so look online or in gardening books."
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Step 3: See if the soil is wet"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="342dp"
+                android:layout_height="57dp"
+                android:text="    If the plants are grown in dry soil, it would need more amount of water and clay soil obviously needs less amount of water as it has more moisture."
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Step 4: Give appropriate water"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="342dp"
+                android:layout_height="77dp"
+                android:text="    Remember that different kinds and ages of plants have different requirements. Younger ones typically need less water than older ones, while newly planted ones need only small amount of water."
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Step 5: Get the timing right"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="342dp"
+                android:layout_height="177dp"
+                android:text="    The best time of day to water is always in the morning. This gives the plant time to absorb the water and get ready to handle heat, cold, or just the energy it takes to produce chlorophyll, grow, and move nutrients around.If you water in the late afternoon or evening, the problem is that the plant is now wet and the air temperature is cool. Those are the best conditions for mildews, molds, and all kinds of disease problems. Keep life simple, water in the morning."
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btn_start"
+                android:layout_width="102dp"
+                android:layout_height="wrap_content"
+                android:onClick="water_option"
+                android:text="Back" />
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

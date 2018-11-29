@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="399dp"
+        android:layout_height="594dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="366dp"
+            android:layout_height="490dp"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="7dp">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="226dp"
+                android:layout_height="wrap_content"
+                android:text="Planting"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Step 1: Right Place, Right Plant"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="354dp"
+                android:layout_height="wrap_content"
+                android:text="    Does the particular annual flower or perennial flower that you want to grow prefer sun, shade, or a combination of both? Start by placing a sun plant in the sun, and a shade plant in the shade. Full sun is six hours or more of direct sun per day, not necessarily continuously. Partial sun or partial shade is four to six hours of sun per day, with partial sun closer to six, partial shade closer to four. Shade definitions vary, depending on how deep the shade really is. Dappled shade gives a lot more light than deep shade, with virtually no sunlight."
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Step 2: Dig"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="    Beautiful flower gardens start with good soil. In general, most flowers do best in garden soil that is loose and well drained with a lot of organic material as part of the soil composition.  You don't need to dig a large area to plant flowers, but you should dig enough soil that you can add some compost in to improve the soil structure. Work the soil to a depth of at least 6 inches."
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="342dp"
+                android:layout_height="193dp"
+                android:text="    Avoid digging or handling soil when it's wet to prevent compaction. Plants need a certain amount of space between soil particles for roots to grow. One test to see if soil can be worked is to dig a small sample of soil from a 3-inch hole. Squeeze it in your hand, then toss the soil onto a hard surface such as a rock or pavement. If the soil stays in a ball, it's too wet for planting. If it shatters, it's time to plant.  If you like, work a bit of time-release all-purpose balanced granular fertilizer with a ratio of 10-10-10 into the soil before planting."
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Step 3: Plant"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="342dp"
+                android:layout_height="181dp"
+                android:text="    If you are planting seeds, follow the directions on the seed packet to know how deep to plant each seed and how far apart. With potted garden plants, generally you should plant with the soil at the same level as the soil in the pot. Read the plant tag to be sure. Some flowering plants, such as irises and peonies, prefer their rhizomes and roots to be planted very shallow.
+                        When removing the plant from the pot, gently tease some or all of the soil from the roots and place the plant into the hole you've prepared. Push the soil back into the hole, using a gentle firming so you put the soil back but don't compact it entirely."
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Step 4: Water"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="342dp"
+                android:layout_height="181dp"
+                android:text="    Thoroughly soak the soil around your newly planted flowers. Garden flowers generally need 1 to 2 inches of moisture every week to perform well, so water if you don't receive enough rain. It's best to water deeply and less frequently than shallowly and more often so the roots of the plants grow deeper. Potted flowers need water more frequently as they have less soil around them to hold moisture.
+                Avoid keeping soil waterlogged so the roots of the flowering plants don't rot."
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Step 5: Deadhead and Groom"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="342dp"
+                android:layout_height="155dp"
+                android:text="    As your flowering plants begin blooming, feel free to cut them for bouquets. Clip off the spent flower heads to encourage the plant to put more energy into its foliage and winter survival. Some flowers, including zinnias, dahlias, and others, bloom again when you remove the blooms.
+                Clip or pull any brown foliage for a cleaner look. Daylilies in particular benefit from the removal of old leaves."
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btn_start"
+                android:layout_width="108dp"
+                android:layout_height="wrap_content"
+                android:onClick="plant_option"
+                android:text="Back" />
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

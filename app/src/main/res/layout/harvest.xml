@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="399dp"
+        android:layout_height="594dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="366dp"
+            android:layout_height="490dp"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="7dp">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="226dp"
+                android:layout_height="wrap_content"
+                android:text="Harvesting"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Step 1: Cut Off Branches"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="First, you’ll want to remove any large fan leaves. Next, you’ll want to trim the so-called sugar leaves, which are the small leaves that stick out of buds. How you trim these and how much you trim is up to you. Some people like to leave them on if they’re covered in trichomes, instead of trimming them. Others like to remove them completely because they say it makes the product less harsh. You’ll develop your own preference with each successful harvest. "
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Step 2: Trim While Wet"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="    The second step in harvesting your crops is to cut from your plant the branches that have buds. There’s not really a right way to do this per se, but many growers like to cut their plant down, one branch at a time. A good tip is to cut these branches off in sizes that are manageable for you to work with. In short, you don’t want to cut off a four-feet-long branch, because it will be difficult to handle."
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Step 3: Dry"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="342dp"
+                android:layout_height="212dp"
+                android:text="    This starts the moment you cut and trim your crops and continues for 3–7 days. The idea is to slowly dry your buds for the best benefits while protecting them against mold and bacteria growth. Now, how you go about drying your buds is up to you, but there are a few proven methods. If you’re dealing with normal humidity or even a dry environment, then you’ll want to keep the buds on branches as we discussed. This makes them easy to dry slowly by simply hanging them upside down. There are many methods to do this, including using strings, clothes hangers or wire. "
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Step 4: Cure"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="342dp"
+                android:layout_height="246dp"
+                android:text="    You’ll want to use airtight glass jars, similar to mason jars, for curing your buds. After your buds have dried (i.e., they pass the snap test), then put them in the jars with the lid firmly in place. You’ll only want to fill the jars about 75 percent of the way, leaving room for a little air at the top, because it helps break down sugars and chlorophyll in the buds as part of the curing process. The breakdown of sugars makes for a smoother product, while reducing chlorophyll takes away any bad tastes (such as grass). For a period of about 1–2 weeks, you’ll want to check your buds at least daily for mildew and mold (or even many times per day if you think they may be still too wet). "
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Step 5: Reaping The Results"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="342dp"
+                android:layout_height="161dp"
+                android:text="    Harvest time is probably the most exciting time in the life of a grower. But as you’ve read here, there are many ways to go about it — and the wrong way could hurt your yields or product quality. Above all, remember that you’ll get better at this over time. So don’t stress if your first few harvests don’t turn out perfectly. You will improve as you gain more experience. As long as you follow the tips and guidelines in this guide, you should be fine."
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btn_start"
+                android:layout_width="108dp"
+                android:layout_height="wrap_content"
+                android:onClick="har_option"
+                android:text="Back" />
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
